@@ -99,6 +99,7 @@
     margin: 3vw;
     padding: 5vw;
     overflow: scroll;
+    font-family: 'Martel Sans', sans-serif;
 }
  
 
@@ -210,6 +211,7 @@ body, h1, h2, p, ul, li {
     margin-left: 5%;
     padding: 4%;
     color: rgb(159, 195, 83);
+    font-family: 'Martel Sans', sans-serif;
     /* list-style-type: none; */
  }
 .f1,.f2{
