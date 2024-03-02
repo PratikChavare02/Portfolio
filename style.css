@@ -33,11 +33,12 @@
 
 }
 .img1{
-    width: 30vw;
-    border: 0.1vw outset black;
-    border-radius: 2vw;
+    width: 35vw;
+     
     margin: 2%;
     height: 40vw;
+    border-bottom: 1px solid black;
+    border-radius: 2vw;
 }
 .para{
     font-size: 2vw;
@@ -66,7 +67,12 @@
 }
 .listing{
     list-style-type: none;
+    margin-top: 7vw;
     margin: 3vw;
+     
+    display: flex;
+    flex-direction: column;
+    column-gap: 10%;
 }
  
 .aboutc {
@@ -112,6 +118,7 @@ body, h1, h2, p, ul, li {
         display: flex;
         gap: 2vw;
         font-size: 2vw;
+        margin-top: 5%;
         flex-direction: row;
     }
 
@@ -155,10 +162,10 @@ body, h1, h2, p, ul, li {
 }
 .box1{
     color: white;
-    border: 1px solid rgb(248, 248, 248);
-    border-radius: 5px;
+    border: 3px solid rgb(129, 148, 86);
+    border-radius: 7px;
     height: 10%;
-    width:70% ;
+    width:80% ;
     display: flex;
     flex-direction: column;
     overflow: auto;
